@@ -1,0 +1,124 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "ReportSection12a8a72e6fa50197971d",
+  "displayName": "Geral",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "outspace": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Tela de Fundo Pag1.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Tela_de_Fundo_Pag16180703218238001.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fill'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "009ce5517c36019c301a",
+      "target": "e35469f034ea40b2c777",
+      "type": "DataFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "870ae8a5d4d3651a6872",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "8b623c22856e4ecb0359",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "20afa7c61d8de12070cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "e35469f034ea40b2c777",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "12beb34a6017b5130645",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "6451919276cce067327b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fcc24e74dc938054ee26",
+      "target": "f64b6fb72180b361d193",
+      "type": "NoFilter"
+    }
+  ]
+}

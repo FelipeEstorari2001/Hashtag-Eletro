@@ -1,0 +1,43 @@
+table Acesso
+	lineageTag: 45f3a0da-eab0-4849-b75f-d7712f8231e2
+
+	column Gerente
+		dataType: string
+		lineageTag: 4e5c4029-cf5a-471d-9ea1-c63fdc89ba65
+		summarizeBy: none
+		sourceColumn: Gerente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Marca
+		dataType: string
+		lineageTag: 18acaa8e-2127-4803-b254-3fca65734f52
+		summarizeBy: none
+		sourceColumn: Marca
+
+		annotation SummarizationSetBy = Automatic
+
+	column E-mail
+		dataType: string
+		lineageTag: 898d585f-6479-4203-bd8b-f131d38c2e97
+		summarizeBy: none
+		sourceColumn: E-mail
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Acesso = m
+		mode: import
+		source =
+				let
+				  Origem = Excel.Workbook(File.Contents("C:\Users\felip\OneDrive\Área de Trabalho\Power BI\Aulatres\Acessos Relatório.xlsx"), null, true),
+				  #"Navegação 1" = Origem{[Item = "Plan1", Kind = "Sheet"]}[Data],
+				  #"Tipo de coluna alterado" = Table.TransformColumnTypes(#"Navegação 1", {{"Column1", type text}, {"Column2", type text}, {"Column3", type text}}),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo de coluna alterado", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Gerente", type text}, {"Marca", type text}, {"E-mail", type text}})
+				in
+				  #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,146 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU05",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Tema_hashtag5543441895484068.json",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D",
+    "ScrollingTextVisual1448795304508",
+    "PBI_CV_16948668_E17D_454B_8664_2F2C470EA8C1",
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU05",
+          "path": "BaseThemes/CY26SU05.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "capa_certa13884680400337657.png",
+          "path": "capa_certa13884680400337657.png",
+          "type": "Image"
+        },
+        {
+          "name": "Devolu__es37045049890277293.png",
+          "path": "Devolu__es37045049890277293.png",
+          "type": "Image"
+        },
+        {
+          "name": "explica__o_115465615458260284.png",
+          "path": "explica__o_115465615458260284.png",
+          "type": "Image"
+        },
+        {
+          "name": "filter3597316116595356.png",
+          "path": "filter3597316116595356.png",
+          "type": "Image"
+        },
+        {
+          "name": "Plano202097173824556242.png",
+          "path": "Plano202097173824556242.png",
+          "type": "Image"
+        },
+        {
+          "name": "remove726913932503198.png",
+          "path": "remove726913932503198.png",
+          "type": "Image"
+        },
+        {
+          "name": "Tela_de_Fundo_Pag16180703218238001.png",
+          "path": "Tela_de_Fundo_Pag16180703218238001.png",
+          "type": "Image"
+        },
+        {
+          "name": "Tema_hashtag5543441895484068.json",
+          "path": "Tema_hashtag5543441895484068.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "toolip24551900947717942.png",
+          "path": "toolip24551900947717942.png",
+          "type": "Image"
+        },
+        {
+          "name": "Tootip_Faturamento_tot9595678658556271.png",
+          "path": "Tootip_Faturamento_tot9595678658556271.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultFilterActionIsDataFilter": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": false,
+    "queryLimitOption": "None",
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225",
+    "locale": "pt-BR",
+    "defaultDisplayUnitsToNone": true
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": false,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
+  }
+}

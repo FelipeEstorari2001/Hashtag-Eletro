@@ -1,0 +1,7 @@
+role 'Func rls]'
+	modelPermission: read
+
+	tablePermission Acesso = [E-mail] == USERNAME()
+
+	annotation PBI_Id = af08ed7586c9495cbbda72aaf0e33ad8
+

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "0ce7d1d9d1c186ae6536",
+  "position": {
+    "x": 5.5411255411255409,
+    "y": 0,
+    "z": 17000,
+    "height": 720.34632034632034,
+    "width": 1274.4588744588746,
+    "tabOrder": 16000
+  },
+  "visualGroup": {
+    "displayName": "explicatico",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}
